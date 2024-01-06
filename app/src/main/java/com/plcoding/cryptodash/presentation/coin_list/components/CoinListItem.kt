@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_list.components
+package com.plcoding.cryptodash.presentation.coin_list.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -8,14 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import coil.compose.rememberImagePainter
-import com.plcoding.cryptocurrencyappyt.domain.model.Coin
+import com.plcoding.cryptodash.domain.model.Coin
 
 @Composable
 fun CoinListItem(

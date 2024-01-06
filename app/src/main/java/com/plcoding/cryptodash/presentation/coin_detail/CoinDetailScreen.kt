@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_detail
+package com.plcoding.cryptodash.presentation.coin_detail
 
 import android.content.Context
 import android.content.Intent
@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.rememberAsyncImagePainter
-import com.plcoding.cryptocurrencyappyt.domain.model.CoinDetail
+import com.plcoding.cryptodash.domain.model.CoinDetail
 import java.time.ZoneId
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter

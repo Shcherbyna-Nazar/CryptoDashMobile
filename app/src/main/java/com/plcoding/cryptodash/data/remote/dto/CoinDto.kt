@@ -1,7 +1,7 @@
-package com.plcoding.cryptocurrencyappyt.data.remote.dto
+package com.plcoding.cryptodash.data.remote.dto
 
 
-import com.plcoding.cryptocurrencyappyt.domain.model.Coin
+import com.plcoding.cryptodash.domain.model.Coin
 
 data class CoinDto(
     val ath: Double,

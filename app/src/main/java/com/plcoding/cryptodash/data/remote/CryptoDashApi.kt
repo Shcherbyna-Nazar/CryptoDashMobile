@@ -1,7 +1,7 @@
-package com.plcoding.cryptocurrencyappyt.data.remote
+package com.plcoding.cryptodash.data.remote
 
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.CoinDetailDto
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.Page
+import com.plcoding.cryptodash.data.remote.dto.CoinDetailDto
+import com.plcoding.cryptodash.data.remote.dto.Page
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

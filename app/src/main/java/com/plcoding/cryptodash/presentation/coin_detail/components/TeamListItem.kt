@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_detail.components
+package com.plcoding.cryptodash.presentation.coin_detail.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.TeamMember
+import com.plcoding.cryptodash.data.remote.dto.TeamMember
 
 @Composable
 fun TeamListItem(

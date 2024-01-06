@@ -1,6 +1,6 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_list
+package com.plcoding.cryptodash.presentation.coin_list
 
-import com.plcoding.cryptocurrencyappyt.domain.model.Coin
+import com.plcoding.cryptodash.domain.model.Coin
 
 data class CoinListState(
     val isLoading: Boolean = false,

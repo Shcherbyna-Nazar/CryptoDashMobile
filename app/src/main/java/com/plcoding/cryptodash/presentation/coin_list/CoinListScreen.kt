@@ -1,7 +1,7 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_list
+package com.plcoding.cryptodash.presentation.coin_list
 
 import androidx.compose.foundation.layout.*
-import com.plcoding.cryptocurrencyappyt.presentation.coin_list.components.CoinListItem
+import com.plcoding.cryptodash.presentation.coin_list.components.CoinListItem
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Button
@@ -15,7 +15,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.plcoding.cryptocurrencyappyt.presentation.Screen
+import com.plcoding.cryptodash.presentation.Screen
 
 @Composable
 fun CoinListScreen(

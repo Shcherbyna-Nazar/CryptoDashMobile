@@ -1,9 +1,9 @@
-package com.plcoding.cryptocurrencyappyt.di
+package com.plcoding.cryptodash.di
 
-import com.plcoding.cryptocurrencyappyt.common.Constants
-import com.plcoding.cryptocurrencyappyt.data.remote.CryptoDashApi
-import com.plcoding.cryptocurrencyappyt.data.repository.CoinRepositoryImpl
-import com.plcoding.cryptocurrencyappyt.domain.repository.CoinRepository
+import com.plcoding.cryptodash.common.Constants
+import com.plcoding.cryptodash.data.remote.CryptoDashApi
+import com.plcoding.cryptodash.data.repository.CoinRepositoryImpl
+import com.plcoding.cryptodash.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt
+package com.plcoding.cryptodash
 
 import org.junit.Test
 

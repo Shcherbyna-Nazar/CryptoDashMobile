@@ -1,6 +1,6 @@
-package com.plcoding.cryptocurrencyappyt.domain.model
+package com.plcoding.cryptodash.domain.model
 
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.MarketData
+import com.plcoding.cryptodash.data.remote.dto.MarketData
 
 data class CoinDetail(
     val id: String,

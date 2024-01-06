@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.common
+package com.plcoding.cryptodash.common
 
 object Constants {
 

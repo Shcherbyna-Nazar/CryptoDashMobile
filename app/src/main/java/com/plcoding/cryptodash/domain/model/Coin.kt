@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.domain.model
+package com.plcoding.cryptodash.domain.model
 
 import kotlin.math.absoluteValue
 

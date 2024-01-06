@@ -1,12 +1,9 @@
-package com.plcoding.cryptocurrencyappyt.domain.use_case.get_coins
+package com.plcoding.cryptodash.domain.use_case.get_coins
 
 import android.util.Log
-import com.plcoding.cryptocurrencyappyt.common.Resource
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.Page
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.toCoin
-import com.plcoding.cryptocurrencyappyt.data.repository.CoinRepositoryImpl
-import com.plcoding.cryptocurrencyappyt.domain.model.Coin
-import com.plcoding.cryptocurrencyappyt.domain.repository.CoinRepository
+import com.plcoding.cryptodash.common.Resource
+import com.plcoding.cryptodash.data.remote.dto.Page
+import com.plcoding.cryptodash.domain.repository.CoinRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException

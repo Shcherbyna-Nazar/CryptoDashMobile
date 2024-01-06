@@ -1,9 +1,9 @@
-package com.plcoding.cryptocurrencyappyt.data.repository
+package com.plcoding.cryptodash.data.repository
 
-import com.plcoding.cryptocurrencyappyt.data.remote.CryptoDashApi
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.CoinDetailDto
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.Page
-import com.plcoding.cryptocurrencyappyt.domain.repository.CoinRepository
+import com.plcoding.cryptodash.data.remote.CryptoDashApi
+import com.plcoding.cryptodash.data.remote.dto.CoinDetailDto
+import com.plcoding.cryptodash.data.remote.dto.Page
+import com.plcoding.cryptodash.domain.repository.CoinRepository
 import javax.inject.Inject
 
 class CoinRepositoryImpl @Inject constructor(

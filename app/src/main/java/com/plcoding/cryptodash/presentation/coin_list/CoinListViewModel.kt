@@ -1,12 +1,12 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_list
+package com.plcoding.cryptodash.presentation.coin_list
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.plcoding.cryptocurrencyappyt.common.Resource
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.toCoin
-import com.plcoding.cryptocurrencyappyt.domain.use_case.get_coins.GetCoinsUseCase
+import com.plcoding.cryptodash.common.Resource
+import com.plcoding.cryptodash.data.remote.dto.toCoin
+import com.plcoding.cryptodash.domain.use_case.get_coins.GetCoinsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

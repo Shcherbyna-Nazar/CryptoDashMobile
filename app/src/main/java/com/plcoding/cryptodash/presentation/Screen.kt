@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation
+package com.plcoding.cryptodash.presentation
 
 sealed class Screen(val route: String) {
     object CoinListScreen: Screen("coin_list_screen")

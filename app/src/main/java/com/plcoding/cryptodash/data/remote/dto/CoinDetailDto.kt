@@ -1,8 +1,8 @@
-package com.plcoding.cryptocurrencyappyt.data.remote.dto
+package com.plcoding.cryptodash.data.remote.dto
 
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
-import com.plcoding.cryptocurrencyappyt.domain.model.CoinDetail
+import com.plcoding.cryptodash.domain.model.CoinDetail
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 
@@ -40,18 +40,6 @@ fun CoinDetailDto.toCoinDetail(): CoinDetail {
     }
     val gson = Gson()
     val marketDataObj = marketData?.let { gson.fromJson(it, MarketData::class.java) }
-
-    val lastUpdatedDateTime = ZonedDateTime.parse(marketDataObj?.lastUpdated)
-
-    // Format the LocalDateTime object into a more readable string
-    // Adjust the pattern as needed to match your desired format
-    val formattedLastUpdated =
-        lastUpdatedDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
-    marketDataObj?.let {
-        it.lastUpdated = formattedLastUpdated
-    }
-
-
 
     return CoinDetail(
         id = this.id,

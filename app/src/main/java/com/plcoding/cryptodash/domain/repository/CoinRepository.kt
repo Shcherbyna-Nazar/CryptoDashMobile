@@ -1,7 +1,7 @@
-package com.plcoding.cryptocurrencyappyt.domain.repository
+package com.plcoding.cryptodash.domain.repository
 
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.CoinDetailDto
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.Page
+import com.plcoding.cryptodash.data.remote.dto.CoinDetailDto
+import com.plcoding.cryptodash.data.remote.dto.Page
 
 interface CoinRepository {
 
